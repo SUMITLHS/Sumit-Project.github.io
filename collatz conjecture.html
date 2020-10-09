@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Collatz</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project style.css">
+</head>
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+
+<nav>
+<ul>
+  <li><a href="#intro">Intro</a></li>
+  <li><a href="#videos">Videos</a></li>
+  <li><a href="#Animation">Animation</a></li>
+  <li><a href="#Mathematicians">Mathematicians</a></li>
+</ul>
+</nav>
+
+
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="collatz homepage 3.png" title="An image generated through collatz sequence">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><a id="intro"><span class="color">A brief introduction to
+        <br class="hidden lg:inline-block">the Collatz Conjecture</span>
+      </h1>
+      <p class="mb-8 leading-relaxed">The subject of this talk is the famous Collatz conjecture which is also known as the 3n+ 1 problem. Let n be any non-negative integer and apply the following transformation: If n is even divide it by 2 and if n is odd multiply it by 3 and add 1. The Collatz conjecture is the unproven observation that no matter what number n one starts with, repeated application of this transformation always eventually yields 1. For eg: 17→52→26→13→40→20→10→5→16→8→4→2→1, 23→70→35→106→53→160→80→40→20→10→5→16→8→4→2→1.</p>
+    </div>
+  </div>
+</section>
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><span class="color"><center>Some of my favourite videos on the unsolved Collatz Conjecture.</center><a id="videos"></a>  
+      </h1>      
+    </div>
+  </div>
+</section>
+<div class="iframe-container">
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mFpVDpKX70" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/K0yMyUn--0s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6-AotJ1Ha-4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+</center>
+</div>
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><span class="color"><center>An amazing visualization of the collatz sequence generated through Python</center><a id="Animation">  
+      </h1>      
+    </div>
+  </div>
+</section>
+<video src="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/12/CollatzGraph_1300Lede.mp4" autoplay="autoplay" muted="true" loop="true" playsinline="true" width="100%" poster="https://d2r55xnwy6nx47.cloudfront.net/uploads/2019/12/CollatzGraph_1300Lede.jpg"></video>
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><span class="color"><center>Prominent Mathematicians who have worked on the Collatz Cojecture</center></span><a id="Mathematicians">
+      </h1>      
+    </div>
+  </div>
+</section>
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><span class="color">Lothar Collatz</span></h1>
+      <p class="mb-8 leading-relaxed">Lothar Collatz was a German mathematician, born in Arnsberg, Westphalia.
+
+The 3x + 1 problem is also known as the Collatz conjecture, named after him and still unsolved. <span class="color" title="Collatz–Wielandt formula: for all non-negative non-zero vectors x, let f(x) be the minimum value of [Ax]i / xi taken over all those i such that xi ≠ 0. Then f is a real valued function whose maximum over all non-negative non-zero vectors x is the Perron–Frobenius eigenvalue.">The Collatz–Wielandt formula</span> for the <span class="color" title="In linear algebra, the Perron–Frobenius theorem, proved by Oskar Perron (1907) and Georg Frobenius (1912), asserts that a real square matrix with positive entries has a unique largest real eigenvalue and that the corresponding eigenvector can be chosen to have strictly positive components, and also asserts a similar statement for certain classes of nonnegative matrices.">Perron–Frobenius eigenvalue</span> of a positive square matrix was also named after him.
+
+Collatz's 1957 paper with Ulrich Sinogowitz, who had been killed in the bombing of <span class="color" title="Darmstadt was bombed a number of times during World War II. The most devastating air raid on Darmstadt occurred on the night of 11/12 September 1944 when No. 5 Group of the Royal Air Force (RAF) bombed the city.[1] 66,000 of the 110,000 inhabitants of Darmstadt at the time became homeless. Darmstadt lost between 12,500 and 13,500 inhabitants during World War II.">Darmstadt in World War II</span>, founded the field of <span class="color" title="In mathematics, spectral graph theory is the study of the properties of a graph in relationship to the characteristic polynomial, eigenvalues, and eigenvectors of matrices associated with the graph, such as its adjacency matrix or Laplacian matrix.">spectral graph theory.</span></p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="lothar collatz.jpg" style="width: 720px; height: 600px;">
+    </div>
+  </div>
+</section>
+
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <img class="object-cover object-center rounded" alt="hero" src="terry tao2.jpg">
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><span class="color">Terence Tao</span>
+      </h1>
+      <p class="mb-8 leading-relaxed">Terence Chi-Shen Tao FAA FRS (born 17 July 1975) is an Australian-American mathematician. He is a professor of mathematics at the University of California, Los Angeles (UCLA), where he holds the James and Carol Collins chair. He was a recipient of the 2006 <span class="color" title="The Fields Medal is a prize awarded to two, three, or four mathematicians under 40 years of age at the International Congress of the International Mathematical Union (IMU), a meeting that takes place every four years.">Fields Medal</span> and the 2014 <span class="color" title="The Breakthrough Prize in Mathematics is an annual award of the Breakthrough Prize series announced in 2013.It is funded by Yuri Milner and Mark Zuckerberg and others. The annual award comes with a cash gift of $3 million. The Breakthrough Prize Board also selects up to three laureates for the New Horizons in Mathematics Prize which awards $100,000 to early-career researchers.">Breakthrough Prize in Mathematics</span>. He is also a <span class="color" title="The MacArthur Fellows Program, also known as the MacArthur Fellowship and commonly but unofficially known as the &quot;Genius Grant&quot;, is a prize awarded annually by the John D. and Catherine T. MacArthur Foundation typically to between 20 and 30 individuals, working in any field, who have shown &quot;extraordinary originality and dedication in their creative pursuits and a marked capacity for self-direction&quot; and are citizens or residents of the United States.">2006 MacArthur Fellow</span>. Tao has been the author or co-author of over three hundred research papers. Terence Tao posted a proof showing that — at the very least — the Collatz conjecture is “almost” true for “almost” all numbers. While Tao's result is not a full proof of the conjecture, it is a major advance on a problem that doesn't give up its secrets easily.</p>
+    </div>
+  </div>
+</section>
+
+</body>

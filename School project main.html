@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage</title>
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="project style.css">
+</head>
+<body bgcolor="#EDC7B7">
+<!--dark mode starts-->
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+<!--dark mode ends-->
+
+<!--navbar-->
+<nav>
+<ul>
+  <li><a href="#intro" class="active">Intro</a></li>
+  <li><a href="#list">Content</a></li>
+  <li><a href="#gallery">Gallery</a></li>
+  <li><a href="#song">Surprise</a></li>
+</ul>
+</nav>
+<!--navbar ends-->
+
+<!--intro starts-->
+<section class="text-gray-700 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"><font color="#AC3B61">My Favourite Conjectures
+        <br class="hidden lg:inline-block">and Hypotheses in Mathematics</font><a name="intro">
+      </h1>
+      <p class="mb-8 leading-relaxed">There are hundreds of them, covering all fields of mathematics, and the most impenetrable are often based on the simplest of propositions. Mathematicians call them “conjectures”: theorems or hypotheses that have a strong probability of being correct, but that no one has ever managed to prove or refute. Mathematicians agree that it takes as much imagination – along with a wealth of fresh ideas – to solve these puzzles as to devise them. But what exactly are they about? What role do conjectures play in mathematics? And what are the concrete benefits of research in this strange but fascinating field?<br><br>Beyond their use in mathematics, the results can seem disconnected from any concrete application. However, the negative response formulated in the 1930s by Alan Turing and Alonzo Church to one of the 20th century’s 23 problems, the decision (“Entscheidung”) problem proposed by the German mathematician David Hilbert in 1900, proved to be crucial in laying the theoretical foundations of computer science. And Fermat’s Theorem, which belongs to the mathematical field of number theory, led to the development of the most effective modern-day cryptography methods.</p>
+    </div>
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img class="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/720x600/?math">
+    </div>
+  </div>
+</section>
+<!--intro ends-->
+
+<!--quotes-->
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-200 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">Mathematics is not about numbers, equations, computations, or algorithms: it is about understanding.</p>
+          <a class="inline-flex items-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">William Paul Thruston</span>
+              <span class="text-gray-500 text-sm">American Mathematician</span>
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="p-4 md:w-1/2 w-full">
+        <div class="h-full bg-gray-200 p-8 rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+            <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+          </svg>
+          <p class="leading-relaxed mb-6">It is the perennial youthfulness of mathematics itself which marks it off with a disconcerting immortality from the other sciences. </p>
+          <a class="inline-flex items-center">
+            <span class="flex-grow flex flex-col pl-4">
+              <span class="title-font font-medium text-gray-900">E.T. Bell</span>
+              <span class="text-gray-500 text-sm">Reowned Scottish Mathematician</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--quotes ends-->
+
+<!--list-->
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest"><span class="color">OF MATHS AND PROBLEMS</span></h1>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="IMAGE OF COLLATZ" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="collatz intro.jpg" title="A pattern generated through collatz sequence">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="color"><a href="collatz conjecture.html" target="_blank">Collatz Conjecture</a></span></h2>
+            <h3 class="text-gray-500 mb-3">a.k.a 3n+1 conjecture</h3><a name="list">
+            <p class="mb-4">The Collatz conjecture is a conjecture in mathematics that concerns a sequence defined as follows: start with any positive integer n. Then each term is obtained from the previous term as follows: if the previous term is even, the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1. The conjecture is that no matter what value of n, the sequence will always reach 1. Click on the name to know more!</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="riemann intro 2.png" title="A graphical visualization of Riemann's function">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="color"><a href="riemann hypothesis.html" target="_blank">The Riemann Hypothesis</a></span></h2>
+            <h3 class="text-gray-500 mb-3">a.k.a Alternating Zeta Function</h3>
+            <p class="mb-4">Riemann hypothesis, in number theory, hypothesis by German mathematician Bernhard Riemann concerning the location of solutions to the <span class="color" title="Riemann zeta function, function useful in number theory for investigating properties of prime numbers. Written as ζ(x), it was originally defined as the infinite series ζ(x) = 1 + 2^−x + 3^−x + 4^−x + ⋯. For values of x larger than 1, the series converges to a finite number as successive terms are added. If x is less than 1, the sum is again infinite. The zeta function was known to the Swiss mathematician Leonhard Euler in 1737, but it was first studied extensively by the German mathematician Bernhard Riemann.">Riemann zeta function</span>, which is connected to the <span class="color" title="The prime number theorem provides a way to approximate the number of primes less than or equal to a given number n. This value is called π(n), where π is the “prime counting function.” For example, π(10) = 4 since there are four primes less than or equal to 10 (2, 3, 5 and 7).">prime number theorem</span> and has important implications for the distribution of prime numbers. It is included of the Clay Mathematics Institute's <span class="color" title="The Millennium Prize Problems are seven problems in mathematics that were stated by the Clay Mathematics Institute on May 24, 2000. The problems are the Birch and Swinnerton-Dyer conjecture, Hodge conjecture, Navier–Stokes existence and smoothness, P versus NP problem, Poincaré conjecture, Riemann hypothesis, and Yang–Mills existence and mass gap. A correct solution to any of the problems results in a US$1 million prize being awarded by the institute to the discoverer(s).">Millennium Prize Problems.</span> Click on the name to know more!</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="femat intro 2.jpg" title="A picture of Sir Andrew Wiles(the solver of the Fermat's Last Theorem)">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="color"><a href="FLT.html" target="_blank">Fermat's Last Theorem</a></span></h2>
+            <h3 class="text-gray-500 mb-3">a.k.a Fermat's great Theorem</h3>
+            <p class="mb-4">In number theory, Fermat's Last Theorem (sometimes called Fermat's conjecture, especially in older texts) states that no three positive integers a, b, and c satisfy the equation a<sup>n</sup> + b<sup>n</sup> = c<sup>n</sup> for any integer value of n greater than 2. The cases n = 1 and n = 2 have been known since antiquity to have infinitely many solutions.The proposition was first conjectured by Pierre de Fermat around 1637 in the margin of a copy of <span class="color" title="Arithmetica (Greek: Ἀριθμητικά) is an Ancient Greek text on mathematics written by the mathematician Diophantus in the 3rd century AD. It is a collection of 130 algebraic problems giving numerical solutions of determinate equations (those with a unique solution) and indeterminate equations.">Arithmetica.</span>  After 358 years of effort by mathematicians, the first successful proof was released in 1994 by Andrew Wiles, and formally published in 1995; it was described as a "stunning advance" in the citation for Wiles's <span class="color" title="The Abel Prize /ˈɑːbəl/ (Norwegian: Abelprisen) is a Norwegian prize awarded annually by the King of Norway to one or more outstanding mathematicians.">Abel Prize</span> award in 2016. Click on the name to know more!</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="gold intro.png" title="A simple but great visualization of the Collatz Conjecture">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900"><span class="color"><a href="goldbach.html" target="_blank">Goldbach Conjecture</a></span></h2>
+            <h3 class="text-gray-500 mb-3">a.k.a Levy's conjecture</h3>
+            <p class="mb-4">The Goldbach Conjecture is a yet unproven conjecture stating that every even integer greater than two is the sum of two prime numbers. The conjecture has been tested up to 400,000,000,000,000.Goldbach's conjecture is one of the oldest unsolved problems in <span class="color" title="Number theory is the study of the set of positive whole numbers. 1,2,3,4,5,6,7,..., which are often called the set of natural numbers.">number theory</span> and in all of mathematics. For eg: 4=2+2, 6=3+3, 8=3+5, 14=7+7=11+3 etc. Click on the name to know more!</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--list ends-->
+
+<!--gallery starts-->
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><span class="color">Some of my favourite pictures in mathematics</span></h1>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="Gallery 2.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">A PICTURE OF <span class="color" title="Srinivasa Ramanujan FRS (born Srinivasa Ramanujan Aiyangar; 22 December 1887 – 26 April 1920) was an Indian mathematician who lived during the British Rule in India. Though he had almost no formal training in pure mathematics, he made substantial contributions to mathematical analysis, number theory, infinite series, and continued fractions, including solutions to mathematical problems then considered unsolvable.">RAMANUJAN</span> AND <span class="color" title="Godfrey Harold Hardy FRS (7 February 1877 – 1 December 1947) was an English mathematician, known for his achievements in number theory and mathematical analysis. In biology, he is known for the Hardy–Weinberg principle, a basic principle of population genetics.G. H. Hardy is usually known by those outside the field of mathematics for his 1940 essay A Mathematician's Apology, often considered one of the best insights into the mind of a working mathematician written for the layperson.">G.H. HARDY</span></h2>
+            <p class="leading-relaxed">Hardy was the mentor of the Ramanujan. He almost immediately recognised Ramanujan's extraordinary brilliance, and Hardy and Ramanujan became close collaborators.
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4"><a name="gallery">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="gallery 3.webp">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1">VISUALIZATION OF <span class="color" title="The number π is a mathematical constant. It is defined as the ratio of a circle's circumference to its diameter, and it also has various equivalent definitions. It is approximately equal to 3.14159265359">𝝅</span> BY MARTIN KRZYWINSKI</h2>
+            <p class="leading-relaxed">A visualization of 𝝅 generated by powerful computers using the digits of 𝝅, dots, circles, lines and colours from Brewer Palette. For further information kindly visit <a href="https://www.popsci.com/article/science/youve-never-seen-pi-0/" target="_blank"><span class="color">this link</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="gallery 3.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"><span class="color">THE BUDDHABROT SET</span></h2>
+            <p class="leading-relaxed">The Buddhabrot is a curious <span class="color" title="Fractal is a curve or geometrical figure, each part of which has the same statistical character as the whole.">fractal</span> that produces wonderful images of cloudy and colorful nebulas, and is closely related to the <span class="color" title="The Mandelbrot set is the set of complex numbers for which the function does not diverge when iterated from, i.e., for which the sequence, etc., remains bounded in absolute value.">Mandelbrot set</span>. For more information click <a href="https://benedikt-bitterli.me/buddhabrot/" target="_blank"><span class="color">this link.</span></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="gallery 7.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"><span class="color">THE GOLDEN RATIO IN NATURE</span></h2>
+            <p class="leading-relaxed"><span class="color" title="In mathematics, two quantities are in the golden ratio if their ratio is the same as the ratio of their sum to the larger of the two quantities. It is an irrational number that is a solution to the quadratic equation x^2-x-1=0, with a value of 1.6180....">The golden ratio</span>, dented by the Greek letter phi(Φ) is sometimes called the "divine proportion," because of its frequency in the natural world. The number of petals on a flower, for instance, will often be a <span class="color" title="In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is, F0=0 F1=1 and Fn=Fn-1 + Fn-2">Fibonacci number.</span></p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="gallery 5.jpg">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"><span class="color">THE PICTURE WITH THE HIGHEST IQ</span></h2>
+            <p class="leading-relaxed">This picture was clicked during <span class="color" title="The International Solvay Institutes for Physics and Chemistry, located in Brussels, were founded by the Belgian industrialist Ernest Solvay in 1912, following the historic invitation-only 1911 Conference, considered a turning point in the world of physics. The Institutes coordinate conferences, workshops, seminars, and colloquia.">The Solvay Conference</span> in 1927 which was attended by some of the brightest minds of the world during that time. The attendee list included personalities like Einstein, Heisenberg, Lorentz etc.</p>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3 sm:w-1/2 p-4">
+        <div class="flex relative">
+          <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src="gallery 9.png">
+          <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
+            <h2 class="tracking-widest text-sm title-font font-medium text-indigo-500 mb-1"><span class="color">THE MOST BEAUTIFUL MATH EQUATION</span></h2>
+            <p class="leading-relaxed">Euler's identity is an equality found in mathematics that has been compared to a Shakespearean sonnet and described as "the most beautiful equation." For more information click <a href="https://www.youtube.com/watch?v=v0YEaeIClKY&list=LLI3aa4211RjaQw1JW9LM-Gw&index=67" target="_blank"><span class="color">this link</span></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--gallery ends-->
+<!--music-->
+<section class="text-gray-700 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-12">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"><span class="color">A song to cheer you up and beat the Covid blues</span><br><br></h1>
+      <center><a name="song">
+<audio controls="controls" src="waving flag.mp3"></audio></center>   
+    </div>
+  </div>
+</section>
+<!--music ends-->
+<!--footer-->
+<footer class="text-gray-700 body-font">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+      
+      <span class="ml-3 text-xl">Sumit Prabhakar</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">Class: 10D    Roll. No: 55
+    </p>
+    </span>
+  </div>
+</footer>
+<!--footer ends-->
+</body>
